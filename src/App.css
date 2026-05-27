@@ -241,7 +241,6 @@
   font-weight: 600;
 }
 
-/* Si quieres que el ":" destaque, lo controlamos con margin */
 .stat-label::after {
   content: ":";
   margin-left: 4px;
