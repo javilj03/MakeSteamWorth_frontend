@@ -15,8 +15,7 @@ function App() {
     fetch('/api/juegos/top')
       .then(res => res.json())
       .then(data => {
-        // Asumiendo que "datos" es un array según tu 'endpoints.md'
-        // Nos quedamos solo con los 10 primeros juegos
+
         if (data.datos) {
           setTopGames(data.datos.slice(0, 10))
         }
